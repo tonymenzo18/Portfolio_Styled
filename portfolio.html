@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="https://www.facebook.com/lil.bol2" target="_blank">About Me</a></li>
+                <li><a href="https://www.figma.com/proto/JOmZmDzTkI9Ym6FQBRimJP/ZEnergy?node-id=280-13&p=f&t=sUGHiw4G2y5sVI0u-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=280%3A13"
+                    target="_blank">Projects</a></li>
+                <li><a href="anthonynemenzo181@gmail.com" target="_blank">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h3>About Me</h3>
+            <p>
+                HELLO!, I'm a Computer Engineering senior from Bohol Island State University with a passion for
+                technology and innovation.
+                Skilled in 3D modeling, frontend application development, and computer hardware,
+                I have worked on projects involving automation and computer vision,
+                including designing an automatic pet feeder and developing a machine learning-based traffic light
+                detection system.
+                With a strong problem-solving mindset and adaptability to emerging technologies,
+                I'm eager to collaborate, learn, and contribute to impactful tech solutions.
+            </p>
+            <img src="images/zenergy.png" height="300" alt="First UI/UX project.">
+            <img src="images/practice.png" height="300" alt="Demo Project.">
+        </article>
+        <h3>My Projects</h3>
+        <table>
+            <tr class="table-header">
+                <th>Project Name</th>
+                <th>Description</th>
+                <th>Year</th>
+            </tr>
+            <tr class="table-data-1">
+                <td>Sumobot and Pathfinder Robot</td>
+                <td>Designed and built a robot for the Microprocessor Systems
+                        course, applying robotics and programming skills to develop an
+                        autonomous system capable of navigating and executing tasks
+                        using predefined algorithms</td>
+                <td>2023</td>
+            </tr>
+            <tr class="table-data-2">
+                <td>Traffic Light Detection System using YOLOv8</td>
+                <td>Created a program that uses computer vision and machine
+                        learning to detect traffic lights on roads, serving as the final
+                        project for our neural networks course.</td>
+                <td>2024</td>
+            </tr>
+            <tr class="table-data-3">
+                <td>Fablab AR++</td>
+                <td>Led a team of 35 as the project leader and 3D modeler,
+                        overseeing the creation and refinement of 3D assets for AR
+                        applications while ensuring project goals were met and
+                        delivering an enhanced user experience.</td>
+                <td>2022</td>
+            </tr>
+        </table>
+        <h3>Contact Me</h3>
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name">
+            <br>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email">
+        </form>
+        <br>
+        <fieldset>
+            <legend>How did you hear about this portfolio?</legend>
+            <form>
+                <input type="radio" id="friend" name="about us" value="friend">
+                <label for="friend">Friend</label><br>
+                <input type="radio" id="socmed" name="about us" value="social media">
+                <label for="socmed">Social Media</label><br>
+                <input type="radio" id="search" name="about us" value="search engine">
+                <label for="search">Search Engine</label><br>
+                <input type="radio" id="other" name="about us" value="Other">
+                <label for="other">Other</label><br>
+            </form>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Skills/Interests</legend>
+            <form>
+                <input type="checkbox" id="3d" name="skills/interest" value="3d modeling">
+                <label for="3d">3D Modeling</label><br>
+                <input type="checkbox" id="ui/ux" name="skills/interest" value="ui/ux designing">
+                <label for="ui/ux">UI/UX Designing</label><br>
+                <input type="checkbox" id="hardware" name="skills/interest" value="hardware troubleshooting">
+                <label for="hardware">Hardware Troubleshooting</label><br>
+            </form>
+        </fieldset>
+        <br>
+        <form>
+            <label for="message">Comments or Messages:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <input type="submit" value="Submit"><br>
+        </form>
+    </main>
+    <footer>
+        <p>@ 2025</p>
+    </footer>
+</body>
+
+</html>
