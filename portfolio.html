@@ -34,7 +34,7 @@
             <img src="images/zenergy.png" height="300" alt="First UI/UX project.">
             <img src="images/practice.png" height="300" alt="Demo Project.">
         </article>
-        <h3>My Projects</h3>
+        <h3 class="myprojects">My Projects</h3>
         <table>
             <tr class="table-header">
                 <th>Project Name</th>
@@ -65,49 +65,50 @@
                 <td>2022</td>
             </tr>
         </table>
-        <h3>Contact Me</h3>
+        <h3 class="contactme">Contact Me</h3>
         <form>
-            <label for="name">Full Name:</label>
-            <input type="text" id="name" name="name">
-            <br>
-            <label for="email">Email Address:</label>
-            <input type="email" id="email" name="email">
-        </form>
-        <br>
-        <fieldset>
-            <legend>How did you hear about this portfolio?</legend>
-            <form>
-                <input type="radio" id="friend" name="about us" value="friend">
-                <label for="friend">Friend</label><br>
-                <input type="radio" id="socmed" name="about us" value="social media">
-                <label for="socmed">Social Media</label><br>
-                <input type="radio" id="search" name="about us" value="search engine">
-                <label for="search">Search Engine</label><br>
-                <input type="radio" id="other" name="about us" value="Other">
-                <label for="other">Other</label><br>
-            </form>
-        </fieldset>
-        <br>
-        <fieldset>
-            <legend>Skills/Interests</legend>
-            <form>
-                <input type="checkbox" id="3d" name="skills/interest" value="3d modeling">
-                <label for="3d">3D Modeling</label><br>
-                <input type="checkbox" id="ui/ux" name="skills/interest" value="ui/ux designing">
-                <label for="ui/ux">UI/UX Designing</label><br>
-                <input type="checkbox" id="hardware" name="skills/interest" value="hardware troubleshooting">
-                <label for="hardware">Hardware Troubleshooting</label><br>
-            </form>
-        </fieldset>
-        <br>
-        <form>
-            <label for="message">Comments or Messages:</label><br>
-            <textarea id="message" name="message"></textarea><br>
-            <input type="submit" value="Submit"><br>
+            <div class="contactinfo">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <fieldset class="radio">
+                <legend>How did you hear about this portfolio?</legend>
+                <label for="friend">
+                    <input type="radio" id="friend" name="about_us" value="friend">Friend
+                </label>
+                <label for="socmed">
+                    <input type="radio" id="socmed" name="about_us" value="social media">Social Media
+                </label>
+                <label for="search">
+                    <input type="radio" id="search" name="about_us" value="search engine">Search Engine
+                </label>
+                <label for="other">
+                    <input type="radio" id="other" name="about_us" value="Other">Other
+                </label>
+            </fieldset>
+            <fieldset class="checkbox">
+                <legend>Skills/Interests</legend>
+                <label for="3d">
+                    <input type="checkbox" id="3d" name="skills/interest" value="3d modeling">3D Modeling
+                </label>
+                <label for="ui/ux">
+                    <input type="checkbox" id="ui/ux" name="skills/interest" value="ui/ux designing">UI/UX Designing
+                </label>
+                <label for="hardware">
+                    <input type="checkbox" id="hardware" name="skills/interest" value="hardware troubleshooting">Hardware Troubleshooting
+                </label>
+            </fieldset>
+            <div class="feedback">
+                <label for="message">Comments or Messages:</label>
+                <textarea id="message" name="message"></textarea>
+                <button type="submit">Submit</button> 
+            </div>
         </form>
     </main>
     <footer>
-        <p>@ 2025</p>
+        &copy; 2025 Nemenzo. All rights reserved.
     </footer>
 </body>
 
